@@ -17,6 +17,7 @@ export default class App extends Component{
     <Row>
       <Col sm="4">
     <div className="text-center">
+      <h1>CV</h1>
     <img src={Riverpdfoto} width="70%"/>
     <br/>
     <br/>
@@ -28,6 +29,7 @@ export default class App extends Component{
     </Col>
     <Col sm="4">
     <div className="text-center">
+    <h1>Picture</h1>
     <img src={RiverPhoto} width="65%"/>
     <br/>
     <br/>
@@ -36,6 +38,7 @@ export default class App extends Component{
     </Col>
     <Col sm="4">
       <div className="text-center mb-4">
+      <h1>Motive Letter</h1>
       <img src={motiveletter} width="70%"/>
       <br/>
       <br/>
