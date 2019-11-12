@@ -12,13 +12,13 @@ export default class App extends Component{
     <div>
     <Container>
     <div className="text-center mt-4 mb-4">
-      <h1 style={{color:"red"}}>River Data</h1>
+      <h1>River Data</h1>
       </div>
     <Row>
       <Col sm="4">
     <div className="text-center">
-      <h1>CV</h1>
-    <img src={Riverpdfoto} width="70%"/>
+      <h2>CV</h2>
+    <img src={Riverpdfoto} alt={Riverpdfoto} width="70%"/>
     <br/>
     <br/>
     <Button color="primary" href={RiverPdf} download>
@@ -29,8 +29,8 @@ export default class App extends Component{
     </Col>
     <Col sm="4">
     <div className="text-center">
-    <h1>Picture</h1>
-    <img src={RiverPhoto} width="65%"/>
+    <h2>Picture</h2>
+    <img src={RiverPhoto} alt={RiverPhoto} width="65%"/>
     <br/>
     <br/>
     <Button color="primary" className="align-item-center" href={RiverPhoto} download>Download</Button>
@@ -38,8 +38,8 @@ export default class App extends Component{
     </Col>
     <Col sm="4">
       <div className="text-center mb-4">
-      <h1>Motive Letter</h1>
-      <img src={motiveletter} width="70%"/>
+      <h2>Motive Letter</h2>
+      <img src={motiveletter} alt={motiveletter} width="70%"/>
       <br/>
       <br/>
     <Button color="primary" href={motiveletterpdf} download>Download</Button>
